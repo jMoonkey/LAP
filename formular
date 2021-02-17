@@ -1,0 +1,18 @@
+<html>
+	<meta charset="utf8">
+	<head>
+	<title>Beispiel Bücherei</title>
+	</head>
+	<body>
+	Verleihvorgänge anzeigen<br>
+	
+<form action="/verleih.php" method="POST">
+  <label for="kunde">Kunden-ID:</label><br>
+  <input type="text" id="kunde" name="kunde" value="1"><br>
+  <label for="buch">Buch-ID:</label><br>
+  <input type="text" id="buch" name="buch" value=""><br><br>
+  <input type="submit" value="Verleih anzeigen">
+</form> 
+	
+	</body>
+</html>
